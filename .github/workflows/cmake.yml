@@ -65,6 +65,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - run: npx semantic-release
-      env:
+    env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
       
