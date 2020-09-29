@@ -36,5 +36,13 @@ configure_package_config_file(
 	INSTALL_DESTINATION ${PROJECT_BINARY_DIR}
 )
 
-install(FILES ${PROJECT_BINARY_DIR}/FirstOrganizedCMakeConfig.cmake DESTINATION ${PROJECT_BINARY_DIR}/install/cmake/ )
+#install(FILES ${PROJECT_BINARY_DIR}/FirstOrganizedCMakeConfig.cmake DESTINATION ${PROJECT_BINARY_DIR}/install/cmake/ )
+if(WIN32)
+	set(CPACK_GENERATOR "ZIP")
+else()
+	set(CPACK_GENERATOR "TGZ")
+endif()
 
+#This must always be last!
+
+include(CPack)
