@@ -9,7 +9,7 @@ on:
         - master
     schedule:
       - cron: '0 0 * * *'
-        
+         
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
