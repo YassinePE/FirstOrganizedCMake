@@ -18,6 +18,7 @@ int main()
 {
     hello_world();
 	print_version();
+    hello_world();
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
