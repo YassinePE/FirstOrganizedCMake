@@ -9,7 +9,7 @@
 //void hello() {
 	//std::cout << "Hello World ! \n";
 //}
-//t
+
 //void print_version() {
 	//std::cout << "project version is" << FirstOrganizedCMake_VERSION_MAJOR << "." << FirstOrganizedCMake_VERSION_MINOR << std::endl;
 //}
